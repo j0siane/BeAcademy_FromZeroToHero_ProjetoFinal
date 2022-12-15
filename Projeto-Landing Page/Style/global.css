@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;500&family=Dancing+Script:wght@500&family=Inter:wght@100;300;600&family=Poppins:ital,wght@0,300;0,500;1,400;1,600;1,700&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+:root{
+    --color1: #0c1837;
+    --color2: #3b425b;
+    --color3: #716f83;
+    --color4: #a1a4af;
+    --color5: #d8d7d8;
+    --color6: #e5b508;
+}

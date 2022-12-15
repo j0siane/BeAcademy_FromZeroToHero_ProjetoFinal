@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joseane Martineli">
+    <meta name="title" content="Landing Page - Projeto Be Academy">
+    <meta name="description" content="Landing Page - Primeiros passos para a educação financeira.">
+    <meta name="keyword" content="finanças pessoais, educação financeira">
+    <meta property="og:image" content="./Components/images/Personal finance-cuate.svg">
+    <meta property="og:description" content="Landing Page - Primeiros passos para a educação financeira.">
+    <meta property="og:title" content="Landing Page - Projeto Be Academy">
+    <link rel="shortcut icon" href="./Components/images/faveicon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./Style/global.css">
+    <link rel="stylesheet" href="./Style/style.css"">
+    <link rel="stylesheet" href="./Style/media.css"">
+
+    <title>Organize-$E</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">Organize-<span>$</span>E</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#finance">Educacional</a></li>
+                <li class="nav-item"><a href="#consultancy">Consultoria</a></li>
+                <li class="nav-item"><a href="#">Inscreva-se</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+    </header>
+        <main>
+        <section class="home" id="home">
+            <div class="home-text">
+                <h4 class="text-h4">Este é o primeiro passo para a sua vida de sucesso!</h4>
+                <h1 class="text-h1">Tenha controle da sua vida financeira!</h1>
+                <p>O controle financeiro é um exercício diário!<br> Mas quando se transforma o sonho em <strong>meta</strong> temos a motivação para alcançá-lo.</p>
+                <h2 class="text-h2">Cadastre-se na newsletter agora mesmo!</h2>
+                <form>
+                    <input type="text" placeholder="Nome" title="Digite seu nome completo!" minlength="10"required>
+                    <input type="email" placeholder="E-mail" title="Preencha seu e-mail corretamente!" required>
+                    <input type="submit" value="Cadastrar">
+                </form>
+                
+
+            </div>
+            <div class="home-img">
+                <img src="./Components/images/Personal finance-cuate.svg" alt="Personal Finance">
+
+
+
+        </section>
+        <section class="finance" id="finance">
+            <div class="form-cep">             
+                 <h3 class="text-h3">Receba nosso informativo gratuitamente!</h3>
+                <form action="" id="form-info">
+                    <label for="cep" >CEP</label>
+                    <input name="cep" type="text" class="get-cep" maxlength="8">
+                    <label for="cep">RUA</label>
+                    <input disabled type="text" class="rua" nome="rua">
+                    <label for="cep">BAIRRO</label>
+                    <input disabled type="text" class="bairro" nome="bairro">
+                    <label for="cep">CIDADE</label>
+                    <input disabled type="text" class="cidade" nome="cidade">
+                    <label for="cep">ESTADO</label>
+                    <input disabled type="text" class="estado" nome="estado"><br>
+                    <button name="cep" type="button" class="my-button">Busque o CEP</button>
+
+                </form>
+                
+
+            </div>
+            <div class="education-finance">
+             <h3 class="text-h3">Educação financeira: Por que ela é tão importante?</h3>
+                <ul class="list">
+                    <li>Viver sem dívidas</li>
+                    <li>Não passar sufoco com imprevistos</li>
+                    <li>Ter reserva de dinheiro</li>
+                    <li>Ter qualidade de vida sem dor de cabeça</li>
+                    <li>Realizar sonhos</li>
+
+                </ul>
+            </div>
+            <div class="img-finance">
+                <img src="./Components/images/Manage money-bro.svg" alt="Education finance image" >
+            </div>
+            
+
+        </section>
+        <section class="consultancy" id="consultancy">
+            <div class="img-consultancy">
+                <img src="./Components/images/Manage money-cuate.svg" alt="Consultancy Image">
+            </div>
+            <div class="table">
+                <table>
+                    <caption>5 passos para sua tranquilidade financeira:</caption>
+                    <tr>
+                        <th>Um passo de cada vez</th>
+                        <th>O que vamos fazer?</th>
+                    </tr>
+                    <tr>
+                        <td>Passo 1</td>
+                        <td>Analisar sua atual situação financeira</td>
+                    </tr>
+                    <tr>
+                        <td>Passo 2</td>
+                        <td>Montar o planejamento de gastos e entradas</td>
+                    </tr>
+                    <tr>
+                        <td>Passo 3</td>
+                        <td>Definir metas de curto, médio e longo prazo</td>
+                    </tr>
+                    <tr>
+                        <td>Passo 4</td>
+                        <td>Acompanhar todo o processo e auxiliar no que for necessário</td>
+                    </tr>
+                    <tr>
+                        <td>Passo 5</td>
+                        <td>Você já sabe fazer sozinho, pois foi o protagonista o tempo todo</td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+        <footer class="foot">
+            Joseane Martineli - 2022
+    
+        </footer>
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

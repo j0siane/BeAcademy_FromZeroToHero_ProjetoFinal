@@ -1,0 +1,119 @@
+/* ---------Breackpoint 1400px---------- */
+@media(max-width:1440px){
+    
+    .home{
+        padding: 40px;
+    }
+    .home-img{
+        width: 90%;
+    }
+}
+
+/* ---------Breackpoint 785px---------- */
+@media(max-width:785px){
+    .navigation{
+        padding: 18px 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .menu.ativo .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu.ativo .bar:nth-child(2){
+        opacity: 0;
+    }
+    .menu.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        width: 100%;
+        flex-direction: column;
+        background: var(--color5);
+        gap: -10px;
+        transition: 0.3s;
+    }
+    .nav-menu.ativo{
+        right: 0;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+    /* ----main----- */
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    /* -----Home----- */
+    .home{
+        padding: 70px 2%;
+        flex-direction: column;
+        text-align: center;
+        order: 1;
+        margin-bottom: 7rem;
+
+       
+        
+    }
+    .home .text-h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+        
+    }
+    form{
+        align-items: center;
+        width: 100%;
+  
+        
+    }
+    input{
+        width: 100%;
+        height: 3rem;
+    }
+    .home-img{
+        display: none;
+    } 
+    /* -------finance----- */
+    .finance{
+        padding: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        order: 2;
+        margin-bottom: 7rem;
+        
+    }
+    .education-finance{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+  
+    .img-finance{
+        display: none;
+    
+    }/*
+
+
+    /* -------consultancy---- */
+     .consultancy{
+        padding: 50px 2%;
+        flex-direction: column;
+        text-align: center;
+        order: 3;
+        margin-bottom: 7rem;
+    }
+    .table{
+        margin-top: 5rem;
+    }
+
+
+
+    
+
+} 
